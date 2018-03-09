@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20480" started-at="2018-03-08T16:55:01Z" finished-at="2018-03-08T16:55:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20480" started-at="2018-03-08T16:55:01Z" finished-at="2018-03-08T16:55:21Z">
+      <class name="com.samplemavpro.scripts.CitySelectorTest">
+        <test-method status="PASS" signature="startReporter()" name="startReporter" is-config="true" duration-ms="825" started-at="2018-03-08T16:55:00Z" finished-at="2018-03-08T16:55:01Z">
+        </test-method>
+        <test-method status="PASS" signature="launchApp(java.lang.reflect.Method)" name="launchApp" is-config="true" duration-ms="10971" started-at="2018-03-08T16:55:01Z" finished-at="2018-03-08T16:55:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.samplemavpro.scripts.CitySelectorTest.verifyTitle()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="verifyTitle()" name="verifyTitle" duration-ms="45" started-at="2018-03-08T16:55:12Z" finished-at="2018-03-08T16:55:12Z">
+        </test-method>
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)" name="postCondition" is-config="true" duration-ms="167" started-at="2018-03-08T16:55:12Z" finished-at="2018-03-08T16:55:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: verifyTitle STATUS:SUCCESS METHOD:com.samplemavpro.scripts.CitySelectorTest.verifyTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="launchApp(java.lang.reflect.Method)" name="launchApp" is-config="true" duration-ms="8563" started-at="2018-03-08T16:55:12Z" finished-at="2018-03-08T16:55:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.samplemavpro.scripts.CitySelectorTest.verifyTitle1()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="FAIL" signature="verifyTitle1()" name="verifyTitle1" duration-ms="17" started-at="2018-03-08T16:55:21Z" finished-at="2018-03-08T16:55:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Googleeee> but was:<Google>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Googleeee> but was:<Google>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.samplemavpro.scripts.CitySelectorTest.verifyTitle1(CitySelectorTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)" name="postCondition" is-config="true" duration-ms="670" started-at="2018-03-08T16:55:21Z" finished-at="2018-03-08T16:55:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: verifyTitle1 STATUS:FAILURE METHOD:com.samplemavpro.scripts.CitySelectorTest.verifyTitle1()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="aftsu()" name="aftsu" is-config="true" duration-ms="545" started-at="2018-03-08T16:55:22Z" finished-at="2018-03-08T16:55:23Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

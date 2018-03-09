@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="TYSS-4F-028" name="com.samplemavpro.scripts.CitySelectorTest" tests="2" failures="1" timestamp="8 Mar 2018 11:25:22 GMT" time="20.48" errors="0">
+  <testcase name="verifyTitle" time="0.045" classname="com.samplemavpro.scripts.CitySelectorTest"/>
+  <testcase name="verifyTitle1" time="0.017" classname="com.samplemavpro.scripts.CitySelectorTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;Googleeee&amp;gt; but was:&amp;lt;Google&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<Googleeee> but was:<Google>
+	at com.samplemavpro.scripts.CitySelectorTest.verifyTitle1(CitySelectorTest.java:27)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>
