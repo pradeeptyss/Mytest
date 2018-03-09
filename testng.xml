@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
    <packages>
-  <package name="com.samplemavpro.scripts"></package>
+  <package name="com.samplemavenpro.scripts1"></package>
   </packages>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
